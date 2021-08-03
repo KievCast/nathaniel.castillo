@@ -559,29 +559,6 @@ span.swirl-right {
 	font-size: 31px;
 }
 
-#content{
-	padding: 0;
-	background: #fff;
-}
-
-#content:after{
-	background: url(./bg-left.png) no-repeat left top;
-    content: "";
-    height: 514px;
-    width: 412px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#content:before{
-	background: url(./bg-right.png) no-repeat left top;
-    content: "";
-    height: 514px;
-    width: 412px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
 
 .section-activity img{
 	padding-top: 22px;
@@ -1227,9 +1204,6 @@ span.swirl-right {
 	}
 	.single-happy-and{
 		display: block;
-	}
-	.btn.btn-border-white{
-		display: none !important;
 	}
 }
 @media only screen and (min-width: 991px) {
